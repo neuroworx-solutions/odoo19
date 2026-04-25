@@ -1,0 +1,22 @@
+[options]
+db_host = False
+db_port = False
+db_user = odoo
+db_password = False
+db_name = odoo_tdirect_db
+list_db = True
+
+# proxy_mode = True
+# xmlrpc_port = 24048
+# gevent_port = 24058
+workers = 2
+max_cron_threads = 1
+limit_memory_soft = 805306368
+limit_memory_hard = 1073741824
+limit_time_cpu = 120
+limit_time_real = 300
+limit_request = 8192
+addons_path = D:\GitHub\python\nwx-odoo19\addons,D:\GitHub\python\nwx-odoo19\custom_addons
+default_productivity_apps = True
+log_level = warn
+admin_passwd = $pbkdf2-sha512$600000$AEDImVNKaY3RunfOeW.tNQ$zW7D5zSCxZZ4IOKIaUqRkVi2kxSLlZu79fCbWdGKtDIQuJjH9GbKitvIRBmpmfWMSfdrhRvWCliO3Unr2lD/WA

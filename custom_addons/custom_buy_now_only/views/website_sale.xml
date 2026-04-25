@@ -1,0 +1,14 @@
+<odoo>
+    <template id="buy_now_only_cta" inherit_id="website_sale.cta_wrapper" priority="50">
+        <xpath expr="//a[@id='add_to_cart']" position="replace">
+            <a
+                role="button"
+                t-attf-class="btn btn-primary o_we_buy_now w-100 {{'' if is_view_active('website_sale.cta_wrapper_boxed') or is_view_active('website_sale.cta_wrapper_large') or not is_50_pc else 'w-sm-auto'}} {{'flex-grow-1' if not is_50_pc else ''}}"
+                href="#"
+            >
+                <i class="fa fa-bolt me-2"/>
+                Buy now
+            </a>
+        </xpath>
+    </template>
+</odoo>
