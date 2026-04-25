@@ -25,6 +25,7 @@ odoo/addons/base/maintenance
 # windows installation config file
 /odoo.conf
 /odoo-data/
+*err.log
 
 # generated for windows installer?
 install/win32/*.bat
@@ -52,4 +53,4 @@ package.json
 /man/
 /share/
 /src/
-*.log
+
